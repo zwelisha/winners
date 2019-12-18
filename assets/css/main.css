@@ -11,6 +11,10 @@ body{
     max-height: 50px;
     width: auto;
 }
+.primary-btn{
+    background-color: #D33739!important;
+    color: #FFFFFF!important;
+}
 .red-text{
     color: #D33739;
 }
