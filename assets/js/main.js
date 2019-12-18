@@ -2,15 +2,6 @@
 *Copyright@2019
 * Author: Zweli Mthethwa
 */
-jQuery('.scroll_to').click(function(e){
-    e.preventDefault();
-    var jump = $(this).attr('href');
-
-    var new_position = $(jump).offset();
-
-    $('html, body').stop().animate({ scrollTop: new_position.top }, 500);
-});
-
 $(document).ready(function(){
     $('send_btn').click(function(e){
         console.log("send button clicked");
