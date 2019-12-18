@@ -1,0 +1,88 @@
+/*
+Copyright@2019
+Author: Zweli Mthethwa
+*/
+/* primary color #D33739 */
+body{
+    color: #333;
+    /*font-size: smaller;*/
+}
+#logo_image{
+    max-height: 50px;
+    width: auto;
+}
+.red-text{
+    color: #D33739;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #D33739;
+}
+#footer_links li {
+    list-style-type: none;
+}
+#footer_links li a{
+    color: #ffffff!important;
+}
+.navbar{
+  background-color: #D33739 !important;
+}
+.nav-link{
+    color: #ffffff !important;
+}
+
+.navbar-brand{
+    color: #ffffff !important;
+    text-transform: uppercase;
+}
+.navbar-toggler{
+    color: #000000!important;
+}
+#call_to_action{
+  background-color: #D33739;
+  color: #fff;
+  text-transform: uppercase;
+}
+#send_email_btn{
+  background-color: #D33739;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+footer{
+    font-size: small;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10%;
+}
+
+@media (min-width: 700px) {
+  #about{
+    margin-top: 5%!important;
+  }
+}
+@media (min-width: 700px) {
+  #contact_image{
+    margin-top: 5%!important;
+  }
+}
+/*icon styles*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: #E1306C;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
